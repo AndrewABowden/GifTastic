@@ -1,6 +1,6 @@
 .nextImage {
     float: left;
-    padding: 15px;
+    padding: 5px;
 }
 
 .searchArea {
@@ -46,7 +46,7 @@ body {
     color: black;
     font-family: 'Lustria', serif;
 
-}
+} 
 #search {
     padding: 18px;
     padding-bottom: 10xp;
