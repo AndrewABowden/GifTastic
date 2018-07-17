@@ -6,7 +6,7 @@ var topics = ["Yoga", "Technology", "Programming", "Web Design", "Aliens", "Scie
 
 
 function getData(nutty) {
-    var querlyURL = $.get("http://api.giphy.com/v1/gifs/search?q=" + nutty + "+&api_key=WfgaDMiUzABZS2tCijpxYaPlPdlMTXSn&limit=10&offset&random");
+    var querlyURL = $.get("https://api.giphy.com/v1/gifs/search?q=" + nutty + "+&api_key=WfgaDMiUzABZS2tCijpxYaPlPdlMTXSn&limit=10&offset&random");
     querlyURL.then(function (response) {
         console.log("success got data", response);
         var gifs = response.data
