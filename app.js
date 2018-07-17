@@ -49,7 +49,7 @@ function displayGifs(data) {
       
         
         image.attr({
-            "src": data[i].images.original.url,
+            "src": data[i].images.fixed_height.url,
             "data-animate":   data[i].images.original.url,
             "data-still": data[i].images.fixed_height_still.url,
             "class": "imgButton",
